@@ -1,0 +1,325 @@
+<html>
+     <head>
+      <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+        <link
+        rel="stylesheet"
+        href="prism-atom-dark.css"
+        type="text/css"
+        media="screen"
+      />
+
+      <script type="text/javascript" src="prism.js"></script>
+      <script type="text/javascript" src="prism.ruby.js"></script>
+        
+      <title>OLAJIRE IDOWU M.D </title>
+        <meta name="description" content="OLAJIRE IDOWU M.D is a professional
+        software engineer specializing in full-stack development.
+        He has extensive experience with Ruby, Rails, JavaScript,
+        and building web applications.">
+
+
+     </head>
+     <body>
+        <div class= "about-container">
+         <nav>
+          <ul>
+             
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#code-samples" class="nav-link">CODE SAMPLES</a></li>
+          <li><a href="#web-apps" class="nav-link">WEB APPS</a></li>
+           <li><a href="#skills-and-tools" class="nav-link">SKILLS &amp; TOOLS</a></li>
+           <li class="hire-me"><a href="#hire-me" class="nav-link">HIRE ME</a></li>
+        </ul> </nav>                      
+ 
+ 
+        <div class="about">
+
+           <img src ="\Users\Jire\Desktop\portfolio2sept-october\JireImage\PassportSizeGood.jpg" class="me"/>
+            <h1>Olajire Idowu M.D.</h1>
+            <h2>MEDICAL APPS TO BE DEVELOPER</h2>
+
+            <hr class ="grey"/>
+            <p class ="bio"> 
+            I trained in General Surgery at Loma Linda University, California. 
+            I completed my Pediatric Surgery Fellowship at Childrens Hospital Detroit, Michigan. 
+            I am board certified in General Surgery and in Pediatric Surgery.
+            I am currently a full professor at University of California, San Francisco.
+            My clinical interests include all aspects of general pediatric surgery, 
+            with interests in gastrointestinal surgery, 
+            pancreatic and splenic surgery and surgical repair of chest wall deformity.
+            I have worked to develop surgical techniques that would improve 
+            operating procedures and outcome in pancrease and splenic surgical procedures. 
+            And more recently I developed a safer surgical technic for the correction of 
+            chest wall deformities
+            My creative mind gave me a passion for medical device innovation 
+            because without it' is impossible to develop something that has never been developed before. 
+            I presently have two medical device that are ready for production pending FDA registration.
+            </p>
+               <h3>
+                CLINICAL PRACTICE
+               </h3>
+               <p>
+                 The <a href="https://www.sfgate.com/health/article/Weeks-of-anguish-are-cleared-up-in-one-flip-of-2659132.php">diagnosis was organoaxial gastric rotation of the stomach.</a> Normally it's shaped like a J, but
+when Peter had an episode, it would flip 180 degrees, with the crook of the J facing down instead of
+up. It happened when his stomach was full, a helluva way to digest a meal. Luckily it always flipped
+back or he would have been "severely compromised," Haddad says, or worse.
+Relieved that it could be corrected by surgery, Simonetti had her humor back. When she first met
+the surgeon, Dr. Olajire Idowu, she says her opening comment was, "This isn't your first day on
+the job, is it?" It's a running gag and even Idowu got a laugh out of it. He's 60, and is the chair of
+the department of surgery at Children's.
+The surgery took about 90 minutes. The problem was a birth defect. The stomach is normally
+joined by ligaments to the spleen, diaphragm, liver and colon. The ligaments were there, but they
+were "loose like a rubber band," Idowu says, and wouldn't hold the stomach in place. The repair
+was a relatively simple operation to sew the stomach to the interior aspect of the upper abdominal
+wall, using permanent sutures.
+Peter was discharged on the Fourth of July, 2005, and within two days all his complaints while
+eating had stopped. That proved that "the arm flailing and the crying was pain in the stomach,"
+Simonetti says.
+Fifteen months later, Peter's weight has more than doubled to a healthy 23 pounds.
+               </p>
+
+               <h3>
+                 MEDICAL MISSION
+               </h3>
+               <p>
+                 Dr. Olajire Idowu quest is a case study of what it takes when a small group of committed
+doctors decides to go it alone in starting a medical nonprofit humanitarian group.
+The group that he and three colleagues from Children's Hospital founded, called the Medical C.A.R.E. Corporation, <a href="https://www.nytimes.com/2003/11/17/giving/overseas-three-colleagues-help-one-doctor-on-a-mission.html">has taught surgical and other
+lifesaving techniques</a> to medical teams in Nigeria and in the Central American nation
+of Belize, American Samoa etc and has helped save the lives of several children in those countries.
+               </p>
+
+
+          
+            <h3 id="code-samples">Code Snippets</h3>
+            <hr class="yellow"> 
+
+
+            
+    <div class="box">
+      <h4>Temperature Conversion</h4>
+      <p>
+        This Ruby program will prompt the user for a temperature
+        in degrees Celsius and let the user know what the
+        corresponding temperature is in Fahrenheit.
+      </p>
+    </div>
+
+    <div class="box">
+<pre><code class="language-ruby">
+  puts "Enter degrees in Celcius"
+cel = gets.chomp
+fah = cel.to_f * 1.8 + 32
+puts fah
+val = "The temperature is #{fah} degrees Fahrenheit"
+puts val
+</code></pre>
+    </div>
+
+    <br class="clear" />
+
+
+    <div class="box">
+      <h4>Ordinal Challenge</h4>
+      <p>
+        This ruby program will convert a plain number
+        to the ordinal of the number. So for example,
+        if the user enters 2, it will display 2nd, if
+        the user enters 3, it will display 3rd, etc.
+      </p>
+    </div>
+
+     <div class="box">
+        <pre><code class="language-ruby">
+         puts "Enter a number"
+        number = gets.chomp.to_i
+
+        if number == 11
+           puts "#{number}th"
+        elsif number == 12
+           puts "#{number}th"   
+        elsif number == 13
+           puts "#{number}th" 
+        elsif number.digits.first == 1
+           puts "#{number}st"
+        elsif number.digits. first == 2
+           puts "#{number}nd"
+        elsif number.digits.first == 3
+           puts "#{number}rd"
+        else
+           puts "#{number}th"
+        end
+        </code></pre>
+    </div>
+
+  
+
+    <br class="clear" />
+
+    <div class="box">
+      <h4>Foobar</h4>
+      <p>
+        This ruby program is an adaptation of a classic technical
+        interview problem which displays sequences
+        of the Foobar pattern.
+      </p>
+    </div>
+
+    <div class="box">
+      <pre><code class="language-ruby">
+      puts "How may items do you want to see?"
+      items = gets.chomp.to_i
+      1.upto(items) do |items|
+      divisible_by_3 = items % 3
+      divisible_by_5 = items % 5
+      if divisible_by_3 == 0 && divisible_by_5 == 0
+      puts "FooBar"
+      elsif divisible_by_3 == 0
+      puts "foo"
+         elsif divisible_by_5 == 0
+           puts "bar"
+         else 
+           puts "#{items}"
+           end
+           end
+</code></pre>
+    </div>
+
+    <br class="clear" />
+    
+    <h3 id="web-apps">Web Apps</h3>
+ <hr class="yellow" />
+
+ <div class="box">
+      <h4>Quote Generator</h4>
+      <img src="splurty.png" class="full-width"/>
+      <p>
+          A database-powered quote generator with a mobile-first
+          design, using the Ruby on Rails framework, HTML, and CSS.
+          Uses Git and GitHub for version control, and launched
+          on Heroku.
+      </p>
+    </div>
+
+    <div class="box">
+      <h4>Yelp Clone</h4>
+      <img src="nomster.png" class="full-width" />
+      <p>
+        A Yelp clone that integrates with the Google Maps API
+        and includes features like user comments, star ratings,
+        image uploading, and user authentication.
+      </p>
+    </div>
+    <br class="clear" />
+
+    <div class="box">
+      <h4>Two-Sided Market Place</h4>
+      <img src="flixter.png" class="full-width" />
+      <p>
+        A two-sided, video-streaming marketplace platform that
+        features credit card payment capabilities, user role
+        management, complex user interfaces, and advanced
+        database relationships.
+      </p>
+    </div>
+    <div class="box">
+      <h4>Test Driven Development</h4>
+      <img src="grammable.png" class="full-width" />
+      <p>
+        An Instagram clone that was built using industry-standard, test-driven
+        development following numerous red/green/refactor cycles.
+      </p>
+    </div>
+    <br class="clear" />
+    <div class="box">
+      <h4>Single Page Todo Application</h4>
+      <img src="todoster.png" class="full-width" />
+      <p>
+        This single-page to-do application features a
+        fluid user interface that– by using JavaScript–
+        allows users to rapidly add dynamic content.
+      </p>
+    </div>
+    <div class="box">
+      <h4>Agile Team Project</h4>
+      <img src="chess.png" class="full-width" />
+      <p>
+        Worked on an Agile software development team building
+        a chess application. Under the guidance of a senior software engineer,
+        we had weekly Agile team meetings for code reviews, sprint planning,
+        and feature assignments.
+      </p>
+    </div>
+    <br class="clear" />
+    <h3 id="skills-and-tools">Skills &amp; Tools</h3>
+     <hr class="yellow" />
+     <p>
+      Ken has developed proficiency and expertise
+      in the following programming languages and
+      comfort with the following tools.
+    </p>
+    <div class="icons">
+ <img src="github.png" class="icon" />
+      <img src="rubocop.png" class="icon" />
+      <img src="trello.png" class="icon" />
+      <img src="slack.png" class="icon" />
+      <img src="codeship.png" class="icon" />
+
+
+
+    <br class="clear" />
+    <img src="skills.png" class="icon"/>
+
+   </div>
+
+    <div class="contact-me" id="hire-me">
+     <h3 class="contact-headline">Contact</h3>
+      <hr class="yellow" />
+      <p class="contact-info">
+        Currently entertaining new opportunities.
+        Please get in touch via email:
+      </p>
+
+        <p>
+        <a href="mailto:my@email.com" class="contact-link">
+          my@email.com
+        </a>
+      </p>
+
+    </div>
+
+</body>
+</html>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+
+       </div> 
+
+        </div>
+       
+     </body>
+
+</html>
